@@ -91,9 +91,7 @@ I would recommend running this algorithm in Jupyter Notebooks, or something simi
 
 In previous sections, I've described how to choose your own parameters and run your own program. However, there are lots of things to consider and it might feel a bit daunting, which is why I've included files of most of the pieces I've made (at time of writing). Each file includes the Jupyter Notebook that I ran, the images that I used, and the Python output that was generated. You can try running these, tweaking some of the parameters, and so get an idea for how the algorithm works.
 
-# Final thoughts
 
-This project has been a wonderful experience for me - I loved seeing the way in which mathematics and art intersected. I was inspired by Petros Vrellis' artwork; please see his [website](http://artof01.com/vrellis/works/knit.html) for a much more professional job than mine! There are several directions I am considering taking this project in. One is to properly introduce colour, not just a single colour as a background like I've done so far (these have all been pretty simple conceptually, even the more creative ones like David Bowie). I've experimented with trying to minimise Eulerian distance between pixels in an RGB/CMYK colour space, as well as a much simpler approach by considering each colour individually. I've managed to create some pretty cool digital art using this method (see below), but unfortunately I haven't been able to adapt the algorithm to create images I could make in real life (because the images below create colours by layering: each thread only has darkness about 20 on a scale from 0-255, and lines crossing over each other create new shades, which obviously isn't how it would work in real life!).
 
  <br />
 
